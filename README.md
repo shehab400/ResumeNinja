@@ -18,12 +18,12 @@ You may also see any lint errors in the console.
 
 ## this app is designed and created by:
 
-## Mohamed Ayman (id: 1210388)
+## Mohamed Ayman
 
-## Shehab Elhadary (id:1210366)
+## Shehab Elhadary
 
-## Maged Amgad (id:1210375)
+## Maged Amgad
 
-## Mostafa Osama (id:1210377)
+## Mostafa Osama
 
 ## Thanks in advance hope you like our project.
