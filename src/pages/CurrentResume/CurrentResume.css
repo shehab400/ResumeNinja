@@ -1,0 +1,55 @@
+.header {
+    margin-top: 20px;
+    height: 40%;
+    width : 90%;
+    margin: auto auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header h1 {
+    font-size : 50px;
+}
+
+.header h4 {
+    font-size : 40px;
+}
+
+.header p {
+    font-size : 30px; 
+}
+
+.personal {
+    height: 100%;
+}
+
+.header  img {
+    object-fit: contain;
+}
+
+.main h1 {
+    font-size: 50px;
+}
+
+.main p {
+    font-size: 40px;
+}
+
+
+
+hr {
+    width: 90%;
+    margin: auto auto;
+    margin-bottom: 15px;
+}
+
+.main {
+    width: 90%;
+    margin: auto auto;
+    padding: 10px 10px;
+}
+
+.main > div {
+    margin-bottom: 15px;
+}

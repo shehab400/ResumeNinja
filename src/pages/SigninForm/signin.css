@@ -1,0 +1,157 @@
+.signinform {
+  position: relative;
+  left: 6em;
+  font-size: 1.5em;
+  margin-top: 6em;
+  box-shadow: 10px 10px rgb(241, 128, 14);
+  transition: 1s;
+}
+.signinform:hover {
+  box-shadow: 10px 10px 4px 4px rgb(241, 128, 14);
+  transition: all 1s ease;
+}
+.shadow {
+  padding-top: 40px;
+  background-color: rgb(240, 240, 240);
+  position: relative;
+  height: 23em;
+  width: 15em;
+  border-radius: 1.5em;
+}
+.signheader {
+  margin-bottom: 0.5em;
+  color: rgb(241, 128, 14);
+  margin-left: 1.8em;
+}
+.label {
+  color: rgb(241, 128, 14);
+}
+.button {
+  --color: rgb(241, 128, 14);
+  padding: 0.8em 1.7em;
+  background-color: transparent;
+  border-radius: 0.3em;
+  position: relative;
+  top: 1em;
+  left: 7em;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: 400;
+  font-size: 17px;
+  border: 1px solid;
+  font-family: inherit;
+  text-transform: uppercase;
+  color: var(--color);
+  z-index: 1;
+}
+
+.button::before,
+.button::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+  background-color: var(--color);
+  transition: 1s ease;
+}
+
+.button::before {
+  top: -1em;
+  left: -1em;
+}
+
+.button::after {
+  left: calc(100% + 1em);
+  top: calc(100% + 1em);
+}
+
+.button:hover::before,
+.button:hover::after {
+  height: 410px;
+  width: 410px;
+}
+
+.button:hover {
+  color: rgb(255, 255, 255);
+}
+
+.button:active {
+  filter: brightness(0.8);
+}
+.input {
+  border-radius: 5px;
+}
+.btn {
+  display: inline-block;
+  padding: 0.5em 1.8em;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(241, 128, 14);
+  border: 3px solid rgb(241, 128, 14);
+  cursor: pointer;
+  position: relative;
+  right: 2.5em;
+  top: 5em;
+  background-color: transparent;
+  text-decoration: none;
+  overflow: hidden;
+  z-index: 1;
+  font-family: inherit;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(241, 128, 14);
+  transform: translateX(-100%);
+  transition: all 0.3s;
+  z-index: -1;
+}
+.btn:hover {
+  color: rgb(255, 255, 255);
+}
+
+.btn:hover::before {
+  transform: translateX(0);
+}
+#signinbtn {
+  position: relative;
+  left: 0.1em;
+}
+#shadow {
+  height: 30em;
+}
+.signinlogo {
+  position: absolute;
+  z-index: -10;
+  top: -6em;
+  right: 0em;
+}
+
+.loading {
+  color : rgb(241, 128, 14);
+  font-size: 40px;
+  font-weight: 800;
+  margin: auto auto;
+}
+
+.error {
+  color : rgb(241, 128, 14);
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 0;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+}

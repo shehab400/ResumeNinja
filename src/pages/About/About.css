@@ -1,0 +1,30 @@
+.about {
+  background-color: rgb(255, 255, 255);
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.oranges {
+  margin-bottom: 2em;
+}
+.oranges {
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  background-color: rgb(241, 128, 14);
+  border-radius: 0.5em;
+}
+.textabout {
+  font-size: 1em;
+  margin: 0.5em;
+  padding: 1.5em;
+  border: 5px dotted rgb(241, 128, 14);
+  border-radius: 1em;
+  transition: 0.7s;
+}
+.textabout:hover {
+  background-color: rgb(241, 128, 14);
+  transition: all 0.7s ease;
+  transform: scale(1.01) translateY(1rem);
+}

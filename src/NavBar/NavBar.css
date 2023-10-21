@@ -1,0 +1,62 @@
+.navbar {
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  border-radius: 0em 0em 2em 2em;
+  height: 7em;
+  z-index: 10;
+}
+.logo {
+  font-size: 3em;
+  color: rgb(241, 128, 14);
+  z-index: 10;
+}
+
+.navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar .navbarOptions {
+  margin-right: 35px;
+  max-width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navbar .navbarOptions a {
+  margin-left: 100px;
+  text-decoration: none;
+  color: black;
+  padding: 0.6em 1em;
+  border: 3px dotted rgb(241, 128, 14);
+  border-radius: 2em;
+  transition: 0.7s;
+}
+
+.navbar .navbarOptions .profile {
+  margin-left: 100px;
+  text-decoration: none;
+  color: black;
+  padding: 0.6em 1em;
+  border: 3px solid rgb(241, 128, 14);
+  border-radius: 2em;
+  transition: 0.7s;
+  max-width: 70%;
+}
+
+.navbar .navbarOptions .profile:hover {
+  background-color: rgb(241, 128, 14);
+  transition: all 0.7s ease;
+}
+
+.navbar .navbarOptions a:hover {
+  background-color: rgb(241, 128, 14);
+  transition: all 0.7s ease;
+}

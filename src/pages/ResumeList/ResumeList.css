@@ -1,0 +1,91 @@
+.resumelistparent {
+    margin-top: 5em;
+    text-align: center;
+  }
+  .hello {
+    margin-bottom: 1em;
+  }
+  .resumecontainer {
+    display: flex;
+    gap: 2em;
+    justify-content: space-evenly;
+  }
+  .resumeitem {
+    height: 225px;
+    width: 450px;
+    border: 5px dotted rgb(241, 128, 14);
+    border-radius: 1em;
+    margin-top: 2em;
+    transition: 1s;
+    color: rgb(241, 128, 14);
+  }
+  .resumeitem:hover {
+    background-color: black;
+    transform: scale(1.2);
+    border: 5px dotted black;
+    transition: all 1s ease;
+  }
+  .resumeimg {
+    height: 120px;
+    border-radius: 0.5em;
+    margin-bottom: 2em;
+  }
+  .resumename {
+    margin-top: 1em;
+  }
+  .deletebutton {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(20, 20, 20);
+    border: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.164);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .svgIcon {
+    width: 12px;
+    transition-duration: 0.3s;
+  }
+  
+  .svgIcon path {
+    fill: white;
+  }
+  
+  .deletebutton:hover {
+    width: 140px;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+    background-color: rgb(255, 69, 69);
+    align-items: center;
+  }
+  
+  .deletebutton:hover .svgIcon {
+    width: 50px;
+    transition-duration: 0.3s;
+    transform: translateY(60%);
+  }
+  
+  .deletebutton::before {
+    position: absolute;
+    top: -20px;
+    content: "Delete";
+    color: white;
+    transition-duration: 0.3s;
+    font-size: 2px;
+  }
+  
+  .deletebutton:hover::before {
+    font-size: 13px;
+    opacity: 1;
+    transform: translateY(30px);
+    transition-duration: 0.3s;
+  }
+  

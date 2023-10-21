@@ -1,0 +1,39 @@
+.parent {
+  margin-top: 2em;
+  font-family: "Rubik", sans-serif;
+  margin-bottom: 4em;
+}
+.Name {
+  font-size: 2em;
+}
+.uppersignature {
+  font-size: 1em;
+}
+.salut {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.ph1 {
+  margin-bottom: 2em;
+  font-size: 1.5em;
+}
+.ph2 {
+  margin-bottom: 2em;
+  font-size: 1.5em;
+}
+.ph3 {
+  margin-bottom: 4em;
+  font-size: 1.5em;
+}
+.signature {
+  margin-bottom: 2em;
+  font-size: 1.5em;
+}
+.signature span {
+  margin-top: 2px;
+}
+.button {
+  position: absolute;
+  right: 2em;
+  top: 6em;
+}

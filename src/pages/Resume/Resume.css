@@ -1,0 +1,75 @@
+.resume {
+  margin-top: 4em;
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+}
+
+.form {
+  grid-column: 2 / 3;
+}
+form > h1 {
+  font-size: 30px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  color: rgb(241, 128, 14);
+}
+
+label {
+  font-size: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+form > input {
+  border-radius: 15px;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+textarea {
+  width: 70%;
+  height: 100px;
+  border-radius: 15px;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.mustlogin {
+  color: rgb(241, 128, 14);
+  font-size: 40px;
+  font-weight: 800;
+  grid-column: 2 / 3;
+  text-align: center;
+}
+
+.errors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.errors {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.error {
+  color : rgb(241, 128, 14);
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+.goback {
+  background-color: rgb(241, 128, 14);
+  font-size: 20px;
+  border-radius: 15px;
+  font-weight: 500;
+  margin: auto auto
+}

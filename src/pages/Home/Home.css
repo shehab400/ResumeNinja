@@ -1,0 +1,226 @@
+/* .home{
+    margin-top: 0;
+    background-color: rgb(228, 228, 228);
+}
+
+.home .introduction {
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.1fr 1fr 1fr;
+}
+
+.introHeader {
+    grid-column: 2 / 6;
+    grid-row: 3 / 5;
+}
+
+.introHeader h1 {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.introParagraph {
+    grid-column: 2 / 6;
+    grid-row: 5 / 6;
+}
+
+.introParagraph p {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.resumeImg {
+    grid-row: 3 / 8;
+    grid-column: 6 / 8;
+    margin-left: 15px;
+}
+
+.CovLetterImg {
+    grid-row: 3 / 8;
+    grid-column: 9 / 11;
+    margin-right: 15px;
+}
+
+.CovLetterImg img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.resumeImg img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.home .howto {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 90vh;
+}
+
+.step1 {
+    grid-row: 1 / 4;
+    grid-column: 2 / 5;
+    padding: 5px 5px 5px 5px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.step2 {
+    grid-row: 4 / 7;
+    grid-column: 5 / 8;
+    padding: 5px 5px 5px 5px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.step3 {
+    grid-row: 7 / 10;
+    grid-column: 2 / 5;
+    padding: 5px 5px 5px 5px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.stepimg {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+
+.stepimg > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.stepP {
+    grid-row: 1 / 4;
+    grid-column: 2 / 4;
+    margin-top: 20px;
+} */
+.home {
+  margin-top: 5em;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  margin-bottom: 7em;
+}
+.hometext {
+  position: relative;
+  left: 6em;
+  font-size: 2em;
+  z-index: -1;
+}
+
+.smalltext {
+  font-size: 0.5em;
+  color: gray;
+}
+.orange {
+  color: rgb(241, 128, 14);
+}
+.typewriter {
+  color: rgb(241, 128, 14);
+  border-right: 0.15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation: blink-caret 0.5s step-end infinite;
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+.homeimage {
+  position: absolute;
+  top: 10em;
+  right: 5em;
+  height: 30em;
+  width: 30em;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.advantages .advantagesheader {
+  text-align: center;
+  margin-bottom: 3em;
+}
+.cardsparent {
+  display: flex;
+  gap: 2em;
+  justify-content: space-around;
+}
+.card {
+  width: 450px;
+  border: 5px dotted rgb(241, 128, 14);
+  border-radius: 1em;
+  transition: 0.7s;
+}
+.cardheader {
+  margin-top: 7px;
+  font-size: 1.5em;
+  margin-bottom: 2em;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.text p {
+  font-size: 1em;
+  margin-bottom: 1em;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.card:nth-child(1):hover {
+  background-color: rgb(241, 128, 14);
+  transition: all 0.7s ease;
+  transform: scale(1.03) translateY(-1rem);
+}
+.card:nth-child(2):hover {
+  background-color: rgb(241, 128, 14);
+  transition: all 0.7s ease;
+  transform: scale(1.03) translateY(-1rem);
+}
+.card:nth-child(3):hover {
+  background-color: rgb(241, 128, 14);
+  transition: all 0.7s ease;
+  transform: scale(1.03) translateY(-1rem);
+}
+.createresume {
+  margin-top: 7em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3em;
+}
+.gridparent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10em;
+  place-items: center;
+}
+.gridcontent {
+  height: 100px;
+  width: 100px;
+}
+.griditen {
+  color: rgb(241, 128, 14);
+}
+.icon {
+  height: 100px;
+  width: 100px;
+}
+.image {
+  height: 200px;
+  width: 400px;
+}
