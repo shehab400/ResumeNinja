@@ -1,3 +1,5 @@
+ResumeNinja is a web application that allow the users to create their own Resume and Cover letter in secounds
+
 ## First of all install node modules by Runnig this command in cmd: npm install
 
 # Getting Started with Create React App
